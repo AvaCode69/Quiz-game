@@ -2,7 +2,7 @@ import React from "react";
 import { useGlobalContext } from "./context";
 
 const SetupForm = () => {
-  const { quiz, handleChange, handleSubmite, error } = useGlobalContext();
+  const { quiz, handleChange, handleSubmit, error } = useGlobalContext();
 
   return (
     <main>
@@ -61,7 +61,7 @@ const SetupForm = () => {
             </p>
           )}
 
-          <button type="submit" className="submit-btn" onClick={handleSubmite}>
+          <button type="submit" className="submit-btn" onClick={handleSubmit}>
             strat
           </button>
         </form>
